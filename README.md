@@ -33,7 +33,7 @@ chmod  -- to change the file permissions
 ${fakevar-"this is alternate text"} -- if no value assigned to variable "fakevar" then, it will consider the value as "this is alternate text"
 echo${#PATH} -- returns the number of characters of the Variable Value
 echo$(myname#*e) -- This deletes the characters of the myname varible value till letter e. Forexaple if the value of myname is "naresh" then, output would be "sh"
-grep -- used as contains and it's always be used with pipe symbol, which will carry the first output to grep syntax. Ex: $names list | grep naresh
+grep -- used as contains and it's always be used with pipe symbol/input(or)output command (<,>), which will carry the first output to grep syntax. Ex: $names list | grep naresh
 declare -r RCBcaptain ="Kohli"  -- this declares the readonly variable and no one can replace this variable until is unset
 unset RCBcaptain  -- this unsets the value of RCBcaptain variable
 
