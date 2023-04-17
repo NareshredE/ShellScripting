@@ -18,3 +18,13 @@ few commands that are useful in day to day operations :
 
 ls -- list out all files and directories
 ls - l -- list our number of files and it's permissions
+pwd -- to know which directory you are in
+cd -- to change the directory
+cd .. -- to exit from current direcotry and move to previous directory
+mkdir -- to create directory
+mv -- to move fie
+cp -- to copy file
+rm -- to remove file
+rm -r -- to remove directory
+echo -- to print a statement
+chmod  -- to change the file permissions
