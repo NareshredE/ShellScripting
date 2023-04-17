@@ -57,7 +57,7 @@ declare -r RCBcaptain ="Kohli"  -- this declares the readonly variable and no on
 unset RCBcaptain  -- this unsets the value of RCBcaptain variable
 
 
-#Commands to Control running scripts: 
+# Commands to Control running scripts: 
 
 Ctrl S -- to Pause
 
