@@ -17,23 +17,52 @@ For example - #I'm writing this to explain how to comment a line in shell script
 few commands that are useful in day to day operations : 
 
 ls -- list out all files and directories
+
 ls -l -- list our number of files and it's permissions
+
 ls -a -- lists all files includes hidden ones
+
 ls -ltr -- lists all files 
+
 pwd -- to know which directory you are in
+
 cd -- to change the directory
+
 cd .. -- to exit from current direcotry and move to previous directory
+
 mkdir -- to create directory
+
 mv -- to move fie
+
 cp -- to copy file
+
 rm -- to remove file
+
 rm -r -- to remove directory
+
 echo -- to print a statement
+
 chmod  -- to change the file permissions
+
 ${fakevar-"this is alternate text"} -- if no value assigned to variable "fakevar" then, it will consider the value as "this is alternate text"
+
 echo${#PATH} -- returns the number of characters of the Variable Value
+
 echo$(myname#*e) -- This deletes the characters of the myname varible value till letter e. Forexaple if the value of myname is "naresh" then, output would be "sh"
+
 grep -- used as contains and it's always be used with pipe symbol/input(or)output command (<,>), which will carry the first output to grep syntax. Ex: $names list | grep naresh
+
 declare -r RCBcaptain ="Kohli"  -- this declares the readonly variable and no one can replace this variable until is unset
+
 unset RCBcaptain  -- this unsets the value of RCBcaptain variable
 
+
+#Commands to Control running scripts: 
+
+Ctrl S -- to Pause
+
+Ctrl Q -- to resume
+
+Ctrl Z -- to send it to background as job (bg - 1 to resume)
+
+Ctrl C -- to get out of Command(quit)
